@@ -452,3 +452,12 @@ width: 100% !important;
 }
 
 }
+
+@media (min-width:250px) and (max-width:450px){
+
+.Home_Main{
+    margin-left: -7%;
+}
+
+
+}
