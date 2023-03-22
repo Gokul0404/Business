@@ -107,4 +107,11 @@ border: none !important;
 box-shadow: none !important;
 
 }
+@media (min-width: 250px) and (max-width: 500px) {
 
+.Nav_Logo{
+
+   width: 21%;
+}
+
+}
