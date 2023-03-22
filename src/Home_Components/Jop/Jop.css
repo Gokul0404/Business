@@ -1,0 +1,42 @@
+
+
+.Jop_Main{
+
+
+    height: 85vh;
+}
+
+
+
+.Jop_Card{
+
+    background-color: transparent !important;
+    
+}
+
+.Job_Card_Body_2{
+
+    margin-top: -15%;
+    z-index: -1;
+border-radius: 20px !important;
+
+    height: 30vh !important;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.Card_2_Title{
+
+    font-weight: 650 !important;
+}
+.Card_Star{
+
+    color: rgb(255,188,11) !important;
+   
+}
+
+.Images_Job{
+
+  
+    
+}

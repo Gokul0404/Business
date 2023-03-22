@@ -1,0 +1,17 @@
+
+   .Content_Over_Main{
+
+    height: 85vh;
+   }
+
+.Content_Main{
+
+    background-color:transparent !important;
+}
+
+.Apply_Btn{
+
+    background-color: rgb(253, 52, 7) !important;
+
+    border-radius: 10px !important;
+}

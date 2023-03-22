@@ -1,0 +1,59 @@
+.Post_Main{
+
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Post_SubMain{
+
+
+    width: 88%;
+}
+
+.Post_Button{
+
+    background-color: rgb(253, 59, 0) ;
+ 
+    border:none;
+    width: 20% ;
+    height: 5vh;
+    font-weight: 500;
+    color: white;
+    border-radius: 12px;
+}
+.Post_h1{
+
+color: rgb(12,12,31);
+}
+
+.Post_First_Col p{
+    font-weight: 500;
+}
+.Post_Button:hover{
+   background-color: rgb(253, 42, 0) ;
+
+}
+
+@media (min-width:250px) and (max-width:1500px){
+
+    .Post_Button{
+
+
+        width: 37%;
+    }
+}
+
+@media  (max-width:770px){
+
+.Post_Main{
+
+
+    height: 100vh;
+}
+
+
+}

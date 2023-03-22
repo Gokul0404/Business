@@ -1,0 +1,110 @@
+:root {
+  --primary_color:rgb(243, 80, 12) ;
+}
+
+
+
+
+
+.nav_main{
+
+width: 100%;
+padding: 0;
+margin: 0;
+
+
+}
+
+@media (min-width: 1000px){
+.nav_submain{
+
+width: 88%;
+}}
+
+
+@media (min-width: 250px) and (max-width:1000px){
+.nav_submain{
+
+width: 100%;
+}}
+
+
+
+.btn-primary {
+
+    border-radius: 12px !important;
+}
+
+.btn-primary {
+  background-color: var(--primary_color) !important;
+  border-color: rgb(243, 80, 12) !important;
+}
+.btn-primary:hover{
+
+
+   background-color:rgb(243, 54, 1) !important ;
+}
+
+.nav-link{
+
+
+   color: rgb(12,12,31) !important;
+}
+
+@media (min-width: 300px) and (max-width: 991px) {
+
+.raw{
+
+   margin-top: 30vw !important;
+}
+
+.Nav_Logo{
+   width: 10%;
+}
+
+}
+
+@media (min-width: 385px) and (max-width: 991px) {
+
+.raw{
+
+   margin-top: 25vw !important;
+}
+
+}
+
+@media (min-width: 455px) and (max-width: 991px) {
+
+.raw{
+
+   margin-top: 20vw !important;
+}
+
+}
+
+@media (min-width: 600px) and (max-width: 991px) {
+
+.raw{
+
+   margin-top: 15vw !important;
+}
+
+}
+
+@media (min-width: 750px) and (max-width: 991px) {
+
+.raw{
+
+   margin-top: 12vw !important;
+}
+
+}
+
+.navbar-toggler {
+
+outline: none !important;
+border: none !important;
+box-shadow: none !important;
+
+}
+
