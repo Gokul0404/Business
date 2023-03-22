@@ -133,7 +133,7 @@ width: 55%;
 }
 
 .Home_Subcontents {
-    padding-left: 18%;
+    padding-left: 10%;
 }
 .Home_Subcontents p {
 
@@ -398,7 +398,7 @@ width: 100% !important;
 
 .Home_Search_contents{
 
-    width: 88%;
+    width: 92%;
     height: 25vh;
   
 
@@ -406,6 +406,19 @@ width: 100% !important;
 
 
 }
+@media (min-width:360px) and (max-width:420px){
+
+.Home_Search_contents{
+
+    width: 98% ;
+    height: 25vh;
+  
+
+}
+
+
+}
+
 
 
 
