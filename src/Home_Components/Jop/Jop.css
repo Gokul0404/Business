@@ -35,8 +35,25 @@ border-radius: 20px !important;
    
 }
 
-.Images_Job{
+@media (min-width:250px) and (max-width:850px){
 
-  
-    
+
+
+    .Jop_Main{
+
+
+    height: 140vh;
+}
+
+}
+@media (min-width:250px) and (max-width:400px){
+
+
+
+    .Jop_Main{
+
+
+    height: 150vh;
+}
+
 }
