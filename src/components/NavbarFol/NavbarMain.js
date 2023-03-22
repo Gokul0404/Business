@@ -28,7 +28,7 @@ export default function NavbarMain() {
                 <Nav.Link className="px-4 T" href="#home">
                   Home
                 </Nav.Link>
-                <Nav.Link className="px-4 T" href="#Secound">
+                <Nav.Link className="px-4 T" href="#job">
                   About Us
                 </Nav.Link>
 
@@ -40,7 +40,9 @@ export default function NavbarMain() {
                   Post a Job
                 </Nav.Link>
 
-                <Nav.Link className="px-4 T">Contact</Nav.Link>
+                <Nav.Link className="px-4 T" href="#footer">
+                  Contact
+                </Nav.Link>
               </Nav>
 
               <Form className="raw">

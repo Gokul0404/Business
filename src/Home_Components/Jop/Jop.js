@@ -4,7 +4,7 @@ import "../Jop/Jop.css";
 
 export default function Jop() {
   return (
-    <div className="Jop_Main">
+    <div className="Jop_Main" id="job">
       <Container>
         <Row>
           <Col className="d-flex justify-content-center">
