@@ -50,14 +50,20 @@ box-shadow: 0px -7px 29px 3px rgba(0,0,0,0.75);
 
    height: 9vh !important;
 }
-.hamb_menu ,.navbar_root{
+.navbar_root{
 
    background-color: rgb(255,249,249);
    padding: 2%;
    z-index: 997 !important;
    margin-top: -2%;
 }
+.hamb_menu {
 
+   background-color: rgb(255,249,249);
+   padding: 2%;
+   z-index: 997 !important;
+
+}
 
 
 
@@ -91,6 +97,7 @@ width: 100%;
 .btn-primary:hover{
 
 
+
    background-color:rgb(243, 54, 1) !important ;
 }
 
@@ -108,7 +115,15 @@ width: 100%;
 }
 
 .Nav_Logo{
-   width: 10%;
+   width: 600% !important;
+}
+
+}
+
+
+@media (min-width: 437px) and (max-width: 991px) {
+.Nav_Logo{
+   width: 800% !important;
 }
 
 }
@@ -156,11 +171,23 @@ border: none !important;
 box-shadow: none !important;
 
 }
-@media (min-width: 250px) and (max-width: 500px) {
+@media (min-width: 750px) and (max-width: 1000px) {
 
 .Nav_Logo{
 
-   width: 21%;
+   width: 400% !important;
 }
 
 }
+
+
+.Image_a{
+   position: relative;
+
+   width: 3% !important;
+}
+.Nav_Logo{
+
+   width: 220%;
+}
+

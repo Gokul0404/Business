@@ -5,12 +5,13 @@ import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Footer from "../FooterFol/Footer";
 import "../NavbarFol/NavbarMain.css";
 
 export default function NavbarMain() {
 
 
-  
+
 
  
   const [colorChange, setColorchange] = useState(false);
@@ -32,19 +33,17 @@ export default function NavbarMain() {
       }
     >
       <div className="nav_submain ">
-        <Navbar
-          expand="lg"
-          className="nav_height"
-       
-        >
+        <Navbar expand="lg" className="nav_height">
           <Container fluid className="navbar_root p-4">
-            <Image
-              src={require("../../logo.png")}
-              width="8%"
-              className="Nav_Logo"
-            />
+            <a href="#home" className="Image_a">
+              <Image
+                src={require("../../logo.png")}
+                width="8%"
+                className="Nav_Logo"
+              />
+            </a>
 
-            <Navbar.Toggle  />
+            <Navbar.Toggle />
             <Navbar.Collapse className="hamb_menu" id="na">
               <Nav
                 className="mx-auto my-2 my-lg-0 fw-bold"
@@ -71,7 +70,9 @@ export default function NavbarMain() {
               </Nav>
 
               <Form className="raw">
-                <Button className="btn  btn-primary">Sign Up</Button>
+                <a href="#footer">
+                  <Button className="btn  btn-primary">Sign Up</Button>
+                </a>
               </Form>
             </Navbar.Collapse>
           </Container>
