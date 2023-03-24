@@ -107,7 +107,7 @@ width: 100%;
    color: rgb(12,12,31) !important;
 }
 
-@media (min-width: 300px) and (max-width: 991px) {
+@media (min-width: 300px) and (max-width: 514px) {
 
 .raw{
 
@@ -115,18 +115,24 @@ width: 100%;
 }
 
 .Nav_Logo{
-   width: 600% !important;
+   width: 680% !important;
 }
 
 }
+@media (min-width: 515px) and (max-width: 991px) {
+
+.Nav_Logo{
+   width: 550% !important;
+}
+}
 
 
-@media (min-width: 437px) and (max-width: 991px) {
+/* @media (min-width: 437px) and (max-width: 991px) {
 .Nav_Logo{
    width: 800% !important;
 }
 
-}
+} */
 
 @media (min-width: 385px) and (max-width: 991px) {
 
