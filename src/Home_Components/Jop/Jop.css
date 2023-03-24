@@ -4,8 +4,17 @@
 
 
     height: 95vh;
+    padding-top: 10%;
+}
+@media (max-width:1000px){
+.Jop_Main{
+
+    padding-top: 21% !important;
+
 }
 
+   
+}
 
 
 .Jop_Card{

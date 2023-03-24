@@ -6,6 +6,17 @@
     height: 90vh;
     display: flex;
     justify-content: center;
+    padding-top: 10%;
+}
+
+@media (max-width:1000px){
+.Walk_Main{
+
+    padding-top: 21% !important;
+
+}
+
+   
 }
 
 .Icon_Background{

@@ -11,6 +11,54 @@
 width: 100%;
 padding: 0;
 margin: 0;
+z-index: 1;
+
+position: fixed;
+height: 7vh !important;
+transition: 0.5s ease-in-out;
+
+}
+
+.nav_main_colorChange{
+
+   width: 100%;
+padding: 0;
+margin: 0;
+z-index: 1;
+height: 7vh !important;
+position: fixed;
+transition: 0.5s;
+   background-color: rgb(255,249,249) !important; 
+-webkit-box-shadow: 0px -7px 29px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -7px 29px 3px rgba(0,0,0,0.75);
+box-shadow: 0px -7px 29px 3px rgba(0,0,0,0.75);
+}
+.nav_height{
+
+   height: 7vh;
+}
+
+@media (max-width: 1000px){
+.nav_main{
+
+
+   height: 10vh !important;
+}
+
+.nav_main_colorChange{
+
+
+   height: 9vh !important;
+}
+.hamb_menu ,.navbar_root{
+
+   background-color: rgb(255,249,249);
+   padding: 2%;
+   z-index: 997 !important;
+   margin-top: -2%;
+}
+
+
 
 
 }
@@ -33,6 +81,7 @@ width: 100%;
 .btn-primary {
 
     border-radius: 12px !important;
+
 }
 
 .btn-primary {

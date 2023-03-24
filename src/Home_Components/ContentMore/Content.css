@@ -2,7 +2,19 @@
    .Content_Over_Main{
 
     height: 85vh;
+    padding-top: 10%;
    }
+
+
+   @media (max-width:1000px){
+.Content_Over_Main{
+
+    padding-top: 21% !important;
+
+}
+
+   
+}
 
 .Content_Main{
 
